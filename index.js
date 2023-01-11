@@ -18,4 +18,5 @@ class CssPropControl {
     bodyCssProps.set('--background', bodyCssProps.get(`--${mode}-background`))
     bodyCssProps.set('--primary', bodyCssProps.get(`--${mode}-primary`))
     bodyCssProps.set('--link', bodyCssProps.get(`--${mode}-link`))
+    bodyCssProps.set('--footer', bodyCssProps.get(`--${mode}-footer`))
 })

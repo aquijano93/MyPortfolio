@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./slider.css">
+    <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/brands.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/solid.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
     <title>Andres Quijano Portfolio</title>
 </head>
 <body class="pageBody">
     <header>
         <nav>
 
-            <h1>Andres Quijano</h1>
+            <h1>Andrés Quijano</h1>
             <ul class="navList">
                 <li><a href="#" class="navBtn">Work</a></li>
                 <li><a href="#" class="navBtn">Resume</a></li>
@@ -21,9 +24,9 @@
             
             
             <label class="toggle">
-                <input type="checkbox">
+                <input type="checkbox" id="dark-mode-toggle">
                 <span class="slider"></span>
-                <span class="labels" data-on="Dark" data-off="Light"></span>
+                <span class="labels" data-on="Light" data-off="Dark"></span>
             </label>
             
         </nav>
@@ -32,9 +35,9 @@
     <section class="mainSection">
         <img src="./Images/me.png" alt="Image of andres quijano" class="mainImage">
         <div>
-            <h2 class="greeting">Welcome! My name is Andres Quijano. I'm a front end developer.</h2>
+            <h2 class="greeting">Welcome! My name is Andrés Quijano. I'm a front end developer.</h2>
             <p class="mainText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora explicabo dolorem placeat et debitis, laudantium nam ratione. Necessitatibus, id error mollitia omnis ut sunt architecto maiores molestias similique modi soluta.</p>
-            <a href="https://github.com/aquijano93" target="_blank" class="gitLink class="navBtn"">See my Work</a>
+            <a href="https://github.com/aquijano93" target="_blank" class="gitLink">See my Work</a>
         </div>
     </section>
     <hr>
@@ -50,5 +53,37 @@
             </div>
         </article>
     </section>
+    <footer>
+        <div>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/andres-quijano-espinosa/" target="_blank">
+                    LinkedIn
+                    <span class="link-icon">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                    CV
+                    <span class="link-icon">
+                        <i class="fa-solid fa-user"></i>
+                    </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/aquijano93" target="_blank">
+                    GitHub
+                    <span class="link-icon">
+                        <i class="fa-brands fa-github"></i>
+                    </span>
+                    </a>
+                </li>
+            </ul>
+                <p class="copywright">© 2022 Andrés Quijano</p>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
 </body>
 </html>

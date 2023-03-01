@@ -80,7 +80,24 @@ header nav li a {
 .projectImage {
     width: 400px;
     margin-inline-end: 4rem;
+    border: solid 2px #ff8800;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    transition: all 1s ease-out;
 }
+
+.projectImage:hover{
+    scale: 1.1;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+}
+
+
 
 .recentWork1 {
     margin-bottom: 2rem;

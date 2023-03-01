@@ -13,14 +13,14 @@
     transition: background 0.5s;
 
     --dark-background: #37474f;
-    --dark-primary: #FFA000;
+    --dark-primary: #ff8800;
     --dark-link: #A9FE75;
     --dark-footer: #263238;
 
-    --light-background: #FFE0B2;
+    --light-background: #fad7af;
     --light-primary: #37474f;
     --light-link: #0091EA;
-    --light-footer: #FFA000;
+    --light-footer: #e2a74d;
     
     --background: var(--light-background);
     --primary: var(--light-primary);
@@ -75,6 +75,15 @@ header nav li a {
 .mainImage {
     width: 320px;
     margin-inline-end: 4rem;
+}
+
+.projectImage {
+    width: 400px;
+    margin-inline-end: 4rem;
+}
+
+.recentWork1 {
+    margin-bottom: 2rem;
 }
 
 .gitLink{

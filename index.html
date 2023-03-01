@@ -9,15 +9,16 @@
     <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/brands.min.css">
     <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/solid.min.css">
     <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Andres Quijano Portfolio</title>
 </head>
 <body class="pageBody">
     <header>
         <nav>
 
-            <h1>Andrés Quijano</h1>
+            <h1>Andrew's portfolio</h1>
             <ul class="navList">
-                <li><a href="#" class="navBtn">Work</a></li>
+                <li><a href="#workSection" class="navBtn">Work</a></li>
                 <li><a href="#" class="navBtn">Resume</a></li>
                 <li><a href="#" class="navBtn">Contact</a></li>
             </ul>
@@ -35,26 +36,39 @@
     <section class="mainSection">
         <img src="./Images/me.png" alt="Image of andres quijano" class="mainImage">
         <div>
-            <h2 class="greeting">Welcome! My name is Andrés Quijano. I'm a web developer.</h2>
-            <p class="mainText">What kind of tools can i handle? <Strong> GENEXUS v18 | CSS | HTML | JAVASCRIPT | SASS | REACT js | GIT/HUB | FIREBASE </Strong>  </p>
+            <h2 class="greeting">Welcome! My name is Andrés Quijano. I'm a web developer and GeneXus programmer.</h2>
+            <p class="mainText">I'm form Montevideo, Uruguay. I'm working on small projects at the moment in order to improve my skills and 
+            and I am looking for job opportunities to accept bigger challenges and take my career to the next level.
+            <br>
+            What kind of tools can i handle? <Strong> GENEXUS v18 | CSS | HTML | JAVASCRIPT | SASS | REACT js | GIT/HUB | FIREBASE </Strong>  </p>
             <a href="https://github.com/aquijano93" target="_blank" class="gitLink">See my Work</a>
         </div>
     </section>
     <hr>
-    <section class="workSection">
+    <section class="workSection" id="workSection">
         <h2>Recent work</h2>
         <article class="recentWork1">
             <img src="./Images/MisticProject.png" alt="project cover" class="projectImage">
-            <div>
+            <div class="projectInfo">
                 <h3>Customers registration</h3>
-                <p>This is a personal project for a barbershop, the client requested a web app to be able to carry out a basic record of his clients in order to create a file highlighting the possibility of taking notes of the work done and the date of the last visit. He also requested a search bar to filter the records and the possibility of seeing a detail of each client. It has a login with data base wich also keeps the records added by the user.
+                <p >This is a personal project for a barbershop, the client requested a web app to be able to carry out a basic record of his clients in order to create a file highlighting the possibility of taking notes of the work done and the date of the last visit. He also requested a search bar to filter the records and the possibility of seeing a detail of each client. It has a login with data base wich also keeps the records added by the user.
                 This project is still in development, since it intends to be the main page of the barbershop later.
                 The project is carried out with React, JS, Html, CSS, Firebase, Bootstrap.</p>
-                <strong>Feb 2023</strong>
+                <strong>Feb 2023 / in progress</strong>
                 <a href="https://github.com/aquijano93/mistic-barber-studio" target="_blank">GitHub repo</a>
             </div>
         </article>
+        <article class="recentWork2">
+            <div class="projectInfo">
+                <h3>eCommerce</h3>
+                <p >It was with this project that I finished my front end student career in React JS dictated by Codehouse. It consists of an eCommerce using database as a service (Firebase) and methods such as context and providers. The UI was created with HTML, CSS and Bootstrap as a library. </p>
+                    <strong>Nov 2022</strong>
+                    <a href="https://github.com/aquijano93/Proyecto-React/tree/main/proyecto-react" target="_blank">GitHub repo</a>
+                </div>
+                <a href="https://proyecto-react-6wbfx7nkk-aquijano93.vercel.app/"><img src="./Images/BluInkProject.png" alt="project cover" class="projectImage2"></a>
+        </article>
     </section>
+    <hr>
     <footer>
         <div>
             <ul>
@@ -87,6 +101,6 @@
         </div>
     </footer>
     <script src="./index.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
